@@ -7,8 +7,6 @@ import ProductPage from './pages/ProductPage';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 
-// import 'bootstrap/dist/css/bootstrap.min.css';
-
 function App() {
 
   const styles = {
@@ -32,8 +30,8 @@ function App() {
   return (
     <Wrapper>
       <BrowserRouter>
+      <Nav />
         <div style={styles.gridContainer}>
-          <Nav />
           <div style={styles.main}>
             <Switch>
               <Route path="/product/:id" component={ProductPage}></Route>

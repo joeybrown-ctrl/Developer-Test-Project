@@ -15,8 +15,8 @@ function Footer() {
     return (
         <>
             <div className="footer" style={styles.footer}>
-                <div className="container mb-0">
-                    <div className="row justify-content-center fixed-bottom bg-primary">
+                <div className="container fluid">
+                    <div className="row justify-content-center fixed-bottom bg-dark">
                         <div className="col text-center">
 
                             <a href="https://www.linkedin.com/in/george-joseph-brown/"

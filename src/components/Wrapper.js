@@ -3,7 +3,7 @@ import React from 'react';
 
 function Wrapper(props) {
     return(
-        <div>{props.children}</div>
+        <div className='container fluid'>{props.children}</div>
     )
 }
 
